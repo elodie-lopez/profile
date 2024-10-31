@@ -1,0 +1,83 @@
+body {
+	background-color: rgb(211,211,211);
+	color: black;
+	font-family: courier;
+	
+}
+
+div {
+	background: white;
+    border-radius: 35px;
+    margin: 200px;
+    padding: 10px;
+   	box-shadow: 0px 10px 30px hotpink;
+}
+
+h1 {
+	color: black;
+    font-family: times;
+    font-weight: 100;
+    letter-spacing: 10px;
+    font-size: 60px;
+}
+h2 {
+	color: black;
+    font-family: times;
+    font-weight: 75;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+p {
+	color: blue;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color : purple;
+}
+
+img { 
+  	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	box-shadow: 0px 10px 30px grey;
+	margin: 40px auto;
+}
+
+
+
+/* Custome design with class*/
+
+.card-white {
+	text-align: center;
+}
+
+@media (max-width: 500px) {
+	.card-white {
+		width: 400px;
+	}
+}
+
+.btn-hotpink {
+	background-color: hotpink;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 35px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+
+
+
+
